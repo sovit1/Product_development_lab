@@ -1,0 +1,91 @@
+/* auth.css */
+
+.SignUpPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 25%;
+    margin-left:20% ;
+    margin-right:20% ;
+    background-color: #a6e6eba3;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-radius: 35px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+   
+  }
+  
+  .emailInput,
+  .passwordInput,
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .emailInput input,
+  .passwordInput input {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline:#545b62;
+    text-align: center;
+    border-radius: 25px;
+  }
+.buttons{
+   
+    justify-content: center;
+}
+  .buttons button {
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .btn1 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn1:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn2 {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn2:hover {
+    background-color: #bd2130;
+  }
+  
+  .btn3 {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .btn3:hover {
+    background-color: #545b62;
+  }
+  .signIn,.signInwg,.logOut{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .emailInput input,
+    .passwordInput input {
+      width: 100%;
+    }
+  }
